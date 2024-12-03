@@ -1,3 +1,5 @@
+//This code connects the ESP to our phone using BLE through the nRF app and sends the ESP's MAC address to the client
+
 #include <BLEDevice.h>
 #include <BLEUtils.h>
 #include <BLEServer.h>
