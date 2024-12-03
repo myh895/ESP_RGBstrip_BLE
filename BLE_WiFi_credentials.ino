@@ -1,3 +1,7 @@
+//This code connects ESP to phone through BLE using nRF connect app, sends ESP's mac address to phone, then gives user the option 
+//to connect to wifi by entering "wifisetup", user is then prompted to enter wifi ssid and password, after which esp connects to wifi
+//user is notifiied about successful/unsuccessful connection
+
 #include <BLEDevice.h>
 #include <BLEUtils.h>
 #include <BLEServer.h>
