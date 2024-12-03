@@ -1,3 +1,8 @@
+//connects to client (nRF used) through BLE, sends ESP mac address to client, and takes json packets from client, with 2 options:
+//1. Scheduling: client sends brightness etc and on off times which get stored in eeprom and used for comparison to turn on led. Time retrieved from ntp server
+//2. Simple on/off: on or off command along with brightness etc to manually turn light on/off
+//LED changes not implemented yet
+
 #include <BLEDevice.h>
 #include <BLEUtils.h>
 #include <BLEServer.h>
